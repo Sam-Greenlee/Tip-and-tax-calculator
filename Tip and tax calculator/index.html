@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tip and Tax Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="sales_tax.js"></script>
+</head>
+<body>
+<main>
+    <h1>Tip and Tax Calculator</h1>
+    <p>Enter Subtotal, Tip and Tax Rate and click "Calculate".</p> 
+
+    <label for="subtotal">Subtotal:</label>
+    <input type="text" id="subtotal" >
+    <span></span>
+    <br>
+
+    <label for="tax_rate">Tax Rate:</label>
+    <input type="text" id="tax_rate" >
+    <span></span>
+    <br>
+
+    <label for="tip">Tip:</label>
+    <input type="text" id="tip" >
+    <span></span>
+    <br>
+
+    <label for="sales_tax">Sales Tax:</label>
+    <input type="text" id="sales_tax" disabled ><br>
+
+    <label for="tip_amount">Tip Amount:</label>
+    <input type="text" id="tip_amount" disabled ><br>
+
+    <label for="total">Total:</label>
+    <input type="text" id="total" disabled ><br>
+
+    <label>&nbsp;</label>
+    <input type="button" id="calculate" value="Calculate" >
+    <input type="button" id="clear" value="Clear" ><br>
+</main>
+</body>
+</html>
